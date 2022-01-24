@@ -1,0 +1,29 @@
+{
+    "name": "Image",
+    "plural": "Images",
+    "base": "PersistedModel",
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "fileName": {
+        "type": "string",
+        "required": false
+      },
+      "createdAt": {
+        "type": "date",
+        "defaultFn": "now"
+      }
+    },
+    "validations": [],
+    "acls": [
+      {
+        "accessType": "*",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "ALLOW",
+        "property": "*"
+      }
+    ],
+    "methods": {}
+  }  

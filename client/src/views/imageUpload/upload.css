@@ -1,0 +1,18 @@
+.upload-container {
+    margin-top: 15vh;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.dropzone-container {
+    background-color: white;
+    border: rgb(204, 204, 204);
+    border-style: dashed;
+    height: 20vh;
+    text-align: center;
+    padding-top: 0;
+}
+
+.dropzone-section, .dropzone {
+    height: 90%;
+}
